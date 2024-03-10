@@ -19,7 +19,7 @@ namespace DesafioE.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> GetRegistersTeste()
+        public async Task<IActionResult> GetRegisters()
         {
             var semaphore = new SemaphoreSlim(3);
             await semaphore.WaitAsync();
