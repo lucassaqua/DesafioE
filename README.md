@@ -37,6 +37,8 @@ páginas, quantidade linhas extraídas em todas as páginas e arquivo json gerad
 4 - Um adendo:
 Sabendo que por padrão a grid do site exibe 20 itens do array por página, eu defini a quantidade de páginas a ser salva no banco de dados, como o número total de intens do array dividido por 20, se o resto desta divisão for zero. Senão, será o número de intens divido por 20, mais um.
 
+5 - Além do endpoint que getRegisters, que soluciona o desafio, criei também um get; um getById; um put; e um Delete, como forma de complementar o meu trabalho e também de visualizar e modificar as os dados no banco de dados.
+
 
 # - Arquitetura do projeto e dependencias 
 Para este projeto, usei o padrão de arquitetura MVC, aplicando conceitos de DDD. 
